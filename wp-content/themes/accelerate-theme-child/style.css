@@ -32,11 +32,11 @@ Text Domain:  accelerate-theme-child
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 2em 0 .5em;
+    margin: 4em 0 .5em;
 }
 
 .blog-post h3 {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .read-more-link {
@@ -61,7 +61,7 @@ Text Domain:  accelerate-theme-child
 .case-study-sidebar h2 {
     font-weight: 500;
     font-size: 1.5em;
-    margin: 4em 0 0 0;
+    margin: 3em 0 0 0;
 }
 
 .case-study-sidebar h3 {
@@ -80,10 +80,34 @@ Text Domain:  accelerate-theme-child
 
 .case-study-images {
     padding-top: 2em;
-    width: 100%;
+    width: 85%;
 }
 
 .case-study-images img {
     padding-bottom: 3em;
     width: 100%;
+}
+
+/***Homepage Featured Work***/
+
+.featured-work h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4em;
+}
+
+.homepage-featured-work {
+    margin: 0;
+}
+
+.individual-featured-work {
+    display: inline-block;
+    padding: 0 2em 0 0;
+    width: 33%;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1em;
 }
