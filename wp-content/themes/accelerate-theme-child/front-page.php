@@ -60,6 +60,18 @@ get_header(); ?>
 					<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
+
+			<?php if ( is_active_sidebar('sidebar-2') ) : ?>
+			<div id="secondary" class="widget-area" role="complementary">
+				<h4>Recent Tweet</h4>
+				<?php dynamic_sidebar( 'sidebar-2'); ?>
+				<div class="twitter-follow-link">
+					<a href="https://www.twitter.com/arzolacodes">
+						<span>Follow Us &rsaquo;</span>
+					</a>
+				</div>
+			</div>
+			<?php endif; ?>
 		</div>
 	</section>
 
