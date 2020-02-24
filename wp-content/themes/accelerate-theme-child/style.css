@@ -335,3 +335,11 @@ i {
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+.tweets li {
+    display: inline;
+}
+
+.tweets {
+    margin-left: 0;
+}
