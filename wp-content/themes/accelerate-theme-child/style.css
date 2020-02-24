@@ -289,12 +289,12 @@ i {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin: 0;
-    font-size: 1.25em;
+    font-size: 1.3em;
     padding: 2em 4em;
 }
 
 .error-page-text h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lacquer', 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
     margin-bottom: 2em;
 }
 
